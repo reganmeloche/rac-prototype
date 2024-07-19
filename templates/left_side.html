@@ -1,0 +1,39 @@
+<!-- Top Element -->
+<div class="top-element">
+    {% include 'scenario.html' %}
+</div>
+
+<!-- Middle Element -->
+<div class="middle-element">
+    {% include 'questions.html' %}
+</div>
+
+<!-- Bottom Element -->
+<div class="bottom-element">
+    {% include 'questions-forms.html' %}
+</div>
+
+<style>
+    .top-element, .middle-element, .bottom-element {
+        box-sizing: border-box; /* Include padding and border in element's total width and height */
+        padding: 15px;
+    }
+
+    .top-element {
+        height: 20%; 
+        background-color: #f8f9fa;
+        overflow: hidden;
+    }
+
+    .middle-element {
+        height: 70%;
+        background-color: #e9ecef;
+        overflow: hidden;
+    }
+
+    .bottom-element {
+        height: 10%;
+        background-color: #dee2e6;
+        overflow: hidden;
+    }
+</style>
