@@ -7,5 +7,4 @@ def home():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    # Ensure Flask is listening on all network interfaces
     app.run(debug=True)
