@@ -26,4 +26,6 @@ Run the Flask application:
 python app.py
 ```
 
-If using Docker, then simply run `docker-compose up`
+If using Docker, then simply run `docker-compose up`.
+
+Navigate to `localhost:5000` to access the app.
